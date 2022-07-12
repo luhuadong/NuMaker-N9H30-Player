@@ -94,3 +94,9 @@ You can use Tera Term terminate emulator (or other software) to type commands of
 * [Download NK-N9H30 Quick Start Guide](https://www.nuvoton.com/resource-download.jsp?tp_GUID=UG1320210329155300)
 * [Download NuWriter](https://github.com/OpenNuvoton/NUC970_NuWriter)
 * [Download Windows 32-bit 6-2017-q1-update ARM GCC](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads/6-2017-q1-update)
+
+
+## 7. References
+
+* [N9H30开发板开箱测试](https://club.rt-thread.org/ask/article/9a1b494513c87d83.html)
+
