@@ -279,6 +279,8 @@
 #define PKG_LVGL_DISP_REFR_PERIOD 30
 #define PKG_LVGL_USING_DEMOS
 #define PKG_LVGL_USING_V08020
+#define PKG_LVGL_VER_NUM 0x08020
+#define PKG_USING_LV_MUSIC_DEMO
 
 /* u8g2: a monochrome graphic library */
 
