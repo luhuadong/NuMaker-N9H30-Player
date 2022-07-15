@@ -1,0 +1,3 @@
+[submodule "tools/NUC970_NuWriter"]
+	path = tools/NUC970_NuWriter
+	url = git@github.com:OpenNuvoton/NUC970_NuWriter.git
