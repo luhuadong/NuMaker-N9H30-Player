@@ -81,6 +81,8 @@ static void nu_key_matrix_switch(uint32_t counter)
 
 int main(int argc, char **argv)
 {
+    rt_kprintf("NuMaker-HMI-N9H30 @_@\n");
+    
 #if defined(RT_USING_PIN)
     uint32_t counter = 1;
     int i = 0;

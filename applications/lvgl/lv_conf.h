@@ -46,7 +46,7 @@
 #endif
 
 /* Please comment LV_USE_DEMO_RTT_MUSIC declaration before un-comment below */
-#define LV_USE_DEMO_WIDGETS         1
+#define LV_USE_DEMO_WIDGETS         0
 //#define LV_USE_DEMO_BENCHMARK       1
 
 #endif
