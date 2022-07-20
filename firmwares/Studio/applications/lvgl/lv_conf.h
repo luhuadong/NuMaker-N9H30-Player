@@ -34,7 +34,7 @@
 
 #define LV_VERSION_EQUAL(x,y,z) (x == LVGL_VERSION_MAJOR && y==LVGL_VERSION_MINOR  && z==LVGL_VERSION_PATCH )
 
-//#define LV_USE_DEMO_RTT_MUSIC         1
+#define LV_USE_DEMO_RTT_MUSIC         1
 #if LV_USE_DEMO_RTT_MUSIC
     #define LV_DEMO_RTT_MUSIC_AUTO_PLAY   1
 
@@ -43,7 +43,7 @@
 #endif
 
 /* Please comment LV_USE_DEMO_RTT_MUSIC declaration before un-comment below */
-#define LV_USE_DEMO_WIDGETS         1
+//#define LV_USE_DEMO_WIDGETS         1
 //#define LV_USE_DEMO_BENCHMARK       1
 
 #endif
