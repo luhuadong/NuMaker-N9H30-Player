@@ -19,6 +19,11 @@ LVGL 已成功打包为 RT-Thread 的软件包。通过使用 RT-Thread Env 工�
 - 评奖时间：7月13-7月20日（因疫情推迟到8月22日）
 - 官宣获奖名单：7月21日（因疫情推迟到8月23日）
 
+## 下载工具
+
+- Windows 系统：[NUC970_NuWriter](https://github.com/OpenNuvoton/NUC970_NuWriter)
+- Linux 系统：[NUC970_NuWriter_CMD](https://github.com/OpenNuvoton/NUC970_NuWriter_CMD)
+
 ## 相关文章
 
 - [NuMaker-HMI-N9H30 开发板](https://getiot.tech/numaker/numaker-hmi-n9h30-intro.html)
