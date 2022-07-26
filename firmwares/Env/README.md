@@ -1,4 +1,20 @@
 # NuMaker-N9H30-Player
+
+## 软件包
+
+| 软件包 | 版本 | 功能 |
+| :--   | :-- | :--  |
+| LVGL  | 8.2.0 | GUI 图形库 |
+| helix | 1.0.0 | MP3 Decoder |
+| webclient | 2.2.0 | HTTP 客户端 |
+| mbedtls | 2.7.10.1 | TLS 加密库 |
+| ezXML | 0.8.6.1 | XML 解释器 |
+| fastlz | 1.0.1 | 解压缩 |
+| EasyFlash | 4.1.0 |  |
+| littlefs  | 2.0.5 |  |
+| ft6236 | 1.0.0 |  |
+
+
 ## 1. Introduction
 Nuvoton offers HMI platforms which are embedded with Nuvoton N9H MPU.  The N9H series with ARM926EJ-S core can operate at up to 300 MHz and can drive up to 1024x768 pixels in parallel port. It integrated TFT LCD controller and 2D graphics accelerator, up to 16 million colors (24-bit) LCD screen output, and provides high resolution and high chroma to deliver gorgeous display effects. It embedded up to 64 MB DDR memory, along with ample hardware storage and computing space for excellent design flexibility.
 
