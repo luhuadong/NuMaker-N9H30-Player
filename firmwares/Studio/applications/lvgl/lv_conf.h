@@ -36,7 +36,7 @@
 
 #define LV_USE_DEMO_RTT_MUSIC         1
 #if LV_USE_DEMO_RTT_MUSIC
-    #define LV_DEMO_RTT_MUSIC_AUTO_PLAY   1
+    #define LV_DEMO_RTT_MUSIC_AUTO_PLAY   0
 
     #define LV_USE_DEMO_MUSIC             1
     #define LV_DEMO_MUSIC_AUTO_PLAY       1
