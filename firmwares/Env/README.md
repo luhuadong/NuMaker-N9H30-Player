@@ -1,8 +1,7 @@
-# NK-N9H30
+# NuMaker-N9H30-Player
 ## 1. Introduction
 Nuvoton offers HMI platforms which are embedded with Nuvoton N9H MPU.  The N9H series with ARM926EJ-S core can operate at up to 300 MHz and can drive up to 1024x768 pixels in parallel port. It integrated TFT LCD controller and 2D graphics accelerator, up to 16 million colors (24-bit) LCD screen output, and provides high resolution and high chroma to deliver gorgeous display effects. It embedded up to 64 MB DDR memory, along with ample hardware storage and computing space for excellent design flexibility.
 
-[![NK-N9H30](https://i.imgur.com/B04MCCf.png "NK-N9H30")](https://i.imgur.com/B04MCCf.png "NK-N9H30")
 
 ### 1.1 MPU specification
 |  | Features |
@@ -54,7 +53,11 @@ Notice: Please install ICE driver for development and [NuMicro_ARM9_Device_Datab
 ## 3. Program firmware
 ### 3.1 SDRAM Downloading using NuWriter
 You can use NuWriter to download rtthread.bin into SDRAM, then run it.
-[![SDRAM Downloading using NuWriter](https://i.imgur.com/UqFvQOb.gif "SDRAM Downloading using NuWriter")](https://i.imgur.com/UqFvQOb.gif "SDRAM Downloading using NuWriter")
+
+```bash
+$ ./install/bin/nuwriter -m sdram -d N9H30F61IEC.ini -a 0x0 -w ../../firmwares/Studio/rtthread.bin -n
+```
+
 <br>
 Choose type: DDR/SRAM<br>
 << Press Re-Connect >><br>
@@ -67,7 +70,11 @@ Enjoy!! <br>
 
 ### 3.2 SPI NOR flash using NuWriter
 You can use NuWriter to program rtthread.bin into SPI NOR flash.
-[![SPI NOR flash](https://i.imgur.com/6Fw3tc7.gif "SPI NOR flash")](https://i.imgur.com/6Fw3tc7.gif "SPI NOR flash using NuWriter")
+
+```bash
+$ ./install/bin/nuwriter -m spi -d N9H30F61IEC.ini -t uboot -a 0x0 -w ../../firmwares/Studio/rtthread.bin -v
+```
+
 <br>
 Choose type: SPI<br>
 << Press Re-Connect >><br>
@@ -84,19 +91,13 @@ Enjoy!! <br>
 ## 4. Test
 You can use Tera Term terminate emulator (or other software) to type commands of RTT. All parameters of serial communication are shown in below image. Here, you can find out the corresponding port number of Nuvoton Virtual Com Port in window device manager.
 
-[![Serial settings](https://i.imgur.com/5NYuSNM.png "Serial settings")](https://i.imgur.com/5NYuSNM.png "Serial settings")
+```bash
+$ sudo minicom -D /dev/ttyUSB0
+```
 
-## 5. Purchase
-* [Nuvoton Direct](https://direct.nuvoton.com/en/numaker-hmi-n9h30)
-
-## 6. Resources
+## 5. Resources
 * [Board Schematic](https://www.nuvoton.com/resource-download.jsp?tp_GUID=HL1020201117191514)
 * [Download NK-N9H30 Quick Start Guide](https://www.nuvoton.com/resource-download.jsp?tp_GUID=UG1320210329155300)
 * [Download NuWriter](https://github.com/OpenNuvoton/NUC970_NuWriter)
 * [Download Windows 32-bit 6-2017-q1-update ARM GCC](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads/6-2017-q1-update)
-
-
-## 7. References
-
-* [N9H30开发板开箱测试](https://club.rt-thread.org/ask/article/9a1b494513c87d83.html)
 
