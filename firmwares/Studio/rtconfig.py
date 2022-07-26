@@ -15,7 +15,8 @@ if os.getenv('RTT_ROOT'):
 
 if  CROSS_TOOL == 'gcc':
 	PLATFORM = 'gcc'
-	EXEC_PATH = r'C:\Program Files (x86)\GNU Tools ARM Embedded\6 2017-q1-update\bin'
+	#EXEC_PATH = r'C:\Program Files (x86)\GNU Tools ARM Embedded\6 2017-q1-update\bin'
+	EXEC_PATH = r'/opt/gcc-arm-none-eabi-7-2017-q4-major/bin'
 elif CROSS_TOOL == 'keil':
 	PLATFORM 	= 'armcc'
 	EXEC_PATH 	= r'C:\Keil_v5'
