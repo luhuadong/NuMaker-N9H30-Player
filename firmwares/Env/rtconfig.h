@@ -17,6 +17,9 @@
 #define RT_USING_IDLE_HOOK
 #define RT_IDLE_HOOK_LIST_SIZE 4
 #define IDLE_THREAD_STACK_SIZE 2048
+#define RT_USING_TIMER_SOFT
+#define RT_TIMER_THREAD_PRIO 4
+#define RT_TIMER_THREAD_STACK_SIZE 512
 
 /* kservice optimization */
 
@@ -59,6 +62,7 @@
 #define RT_USING_USER_MAIN
 #define RT_MAIN_THREAD_STACK_SIZE 2048
 #define RT_MAIN_THREAD_PRIORITY 10
+#define RT_USING_LEGACY
 #define RT_USING_MSH
 #define RT_USING_FINSH
 #define FINSH_USING_MSH
@@ -165,9 +169,9 @@
 /* POSIX (Portable Operating System Interface) layer */
 
 #define RT_USING_POSIX_FS
-#define RT_USING_POSIX_DEVIO
 #define RT_USING_POSIX_POLL
 #define RT_USING_POSIX_SELECT
+#define RT_USING_POSIX_SOCKET
 
 /* Interprocess Communication (IPC) */
 
@@ -246,6 +250,10 @@
 
 /* IoT - internet of things */
 
+#define PKG_USING_WEBCLIENT
+#define WEBCLIENT_NOT_USE_TLS
+#define PKG_USING_WEBCLIENT_V220
+#define PKG_WEBCLIENT_VER_NUM 0x20200
 
 /* Wi-Fi */
 
@@ -268,6 +276,8 @@
 
 /* XML: Extensible Markup Language */
 
+#define PKG_USING_EZXML
+#define PKG_USING_EZXML_V0681
 
 /* multimedia packages */
 
@@ -280,10 +290,11 @@
 #define PKG_LVGL_USING_DEMOS
 #define PKG_LVGL_USING_V08020
 #define PKG_LVGL_VER_NUM 0x08020
-#define PKG_USING_LV_MUSIC_DEMO
 
 /* u8g2: a monochrome graphic library */
 
+#define PKG_USING_HELIX
+#define PKG_USING_HELIX_V100
 
 /* PainterEngine: A cross-platform graphics application framework written in C language */
 
@@ -322,6 +333,8 @@
 
 /* entertainment: terminal games and other interesting software packages */
 
+#define PKG_USING_FASTLZ
+#define PKG_USING_FASTLZ_V101
 
 /* Hardware Drivers Config */
 
