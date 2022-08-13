@@ -295,6 +295,12 @@
 
 #define PKG_USING_HELIX
 #define PKG_USING_HELIX_V100
+#define PKG_USING_MP3PLAYER
+#define MP3_SOUND_DEVICE_NAME "sound0"
+#define MP3_INPUT_BUFFER_SIZE 2048
+#define MP3_OUTPUT_BUFFER_SIZE 4608
+#define MP3_PLAYER_VOLUME_DEFAULT 30
+#define PKG_USING_MP3PLAYER_LATEST_VERSION
 
 /* PainterEngine: A cross-platform graphics application framework written in C language */
 
@@ -319,6 +325,9 @@
 #define PKG_USING_RAMDISK_LATEST_VERSION
 
 /* peripheral libraries and drivers */
+
+
+/* Kendryte SDK */
 
 
 /* AI packages */
