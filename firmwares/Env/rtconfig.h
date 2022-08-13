@@ -355,6 +355,8 @@
 
 /* entertainment: terminal games and other interesting software packages */
 
+#define PKG_USING_OPTPARSE
+#define PKG_USING_OPTPARSE_LATEST_VERSION
 #define PKG_USING_FASTLZ
 #define PKG_USING_FASTLZ_V101
 
