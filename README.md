@@ -28,5 +28,6 @@ LVGL 已成功打包为 RT-Thread 的软件包。通过使用 RT-Thread Env 工�
 
 - [NuMaker-HMI-N9H30 开发板](https://getiot.tech/numaker/numaker-hmi-n9h30-intro.html)
 - [NuMaker-HMI-N9H30 硬件概览](https://getiot.tech/numaker/numaker-hmi-n9h30-hardware-overview.html)
-- [NuMaker-HMI-N9H30 固件下载](https://getiot.tech/numaker/numaker-hmi-n9h30-program-firmware.html)
+- [NuMaker-HMI-N9H30 固件下载（Windows）](https://getiot.tech/numaker/numaker-hmi-n9h30-program-firmware.html)
+- [NuMaker-HMI-N9H30 固件下载（Linux）](https://getiot.tech/numaker/numaker-hmi-n9h30-program-firmware-on-linux.html)
 
